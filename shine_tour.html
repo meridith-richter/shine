@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang = "en">
+	<head>
+	<meta charset="utf-8">
+		<title>
+			Interactive Map 
+		</title>
+
+		<link href = "css/map.css" rel = "stylesheet">
+
+	</head>
+	
+	<body>
+		<div id = "wrapper">
+			<img id = "map" src = "assets/hand_world_image_map.png" alt = "map" usemap = "#map1">
+			<map name = "map1" id = "map1">
+			    <area id = "new_york" shape = "poly" coords="312,242,332,245,330,263,311,259" />
+			    <area id = "connecticut" shape = "poly" coords="331,217,351,221,348,236,330,234" />
+			    <area id = "new_orleans" shape = "poly" coords="270,290,290,298,286,314,265,309" />
+			    <area id = "boulder" shape = "poly" coords="205,265,227,270,224,291,204,283" />
+			    <area id = "tuba_city" shape = "poly" coords="167,284,191,287,183,307,165,302" />
+			    <area id = "london" shape = "poly" coords="598,179,621,180,617,202,594,200" />
+			    <area id = "south_africa" shape = "poly" coords="707,568,733,568,729,592,707,592" />
+			</map>
+			<img src = "assets/info.png" id = "info">
+		</div>
+		
+		<script src = "js/shine_tour.js"></script>
+	
+	</body>
+</html>

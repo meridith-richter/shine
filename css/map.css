@@ -1,0 +1,18 @@
+#wrapper{
+	max-width: 1500px;
+	width: 100%;
+}
+
+body{
+	width: 100%;
+	background-color: #92dbda;
+}
+
+#map{
+	/*width: 100%;*/
+}
+
+#info{
+	margin-left: 5%;
+	margin-top: -5%;
+}

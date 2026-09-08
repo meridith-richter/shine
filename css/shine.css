@@ -1,0 +1,79 @@
+/*#wrapper{
+   max-width: 1200px;
+   width: 100%;
+   margin: auto;
+}*/
+
+.main_flex_container{
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
+.table_flex_container{
+   /*display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;*/
+   text-align: left;
+   margin-left: 200px;
+}
+
+.flex_list{
+   /*display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-justify-content: center;
+   justify-content: center;*/
+   margin-left: 100px;
+   text-align: left;
+}
+
+.flex_row{
+   display: -webkit-flex;
+   display: flex;
+   flex: 1 1 auto;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+}
+
+#shine_logo{
+   width: 65%;
+}
+
+#blurb{
+   margin-top: -120px;
+   width: 70%;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+   list-style: none;
+}
+
+footer{
+   margin-top: 50px;
+}
+
+#footer_item{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
